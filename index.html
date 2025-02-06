@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Benjamin Okello | Software Developer</title>
+  <!-- Link the external CSS file -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Fonts (Optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <!-- Header / Hero Section -->
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">Benjamin <span>Okello</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Hello, I'm Benjamin Okello.</h1>
+      <p>Full-Stack Developer, Tech Enthusiast, and Lifelong Learner</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="section-title">
+      <h2>About Me</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="about-content">
+      <img
+        src="https://via.placeholder.com/350"
+        alt="Profile"
+        class="profile-img"
+      />
+      <div class="about-text">
+        <p>
+          I'm a passionate software developer with experience in building
+          high-quality, scalable web applications. My journey began with
+          curiosity about how the internet works, and I quickly fell in
+          love with bringing ideas to life using technology.
+        </p>
+        <p>
+          My expertise spans across modern frontend frameworks, server-side
+          technologies, and cloud platforms. I'm a strong believer in
+          continuous learning, collaboration, and clean, maintainable code.
+        </p>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="section-title">
+      <h2>Skills</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+      </div>
+      <div class="skill">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+      </div>
+      <div class="skill">
+        <i class="fab fa-js-square"></i>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill">
+        <i class="fab fa-react"></i>
+        <h3>React</h3>
+      </div>
+      <div class="skill">
+        <i class="fab fa-node-js"></i>
+        <h3>Node.js</h3>
+      </div>
+      <div class="skill">
+        <i class="fab fa-git-alt"></i>
+        <h3>Git/GitHub</h3>
+      </div>
+      <div class="skill">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="section-title">
+      <h2>Projects</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x300" alt="Project 1" />
+        <div class="project-info">
+          <h3>Project One</h3>
+          <p>
+            Description of project one. This project showcases my ability
+            to build responsive user interfaces using modern web technologies.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="btn">View Demo</a>
+            <a href="#" target="_blank" class="btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x300" alt="Project 2" />
+        <div class="project-info">
+          <h3>Project Two</h3>
+          <p>
+            Brief summary about project two. Built with React and integrated
+            with a Node.js backend for data management.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="btn">View Demo</a>
+            <a href="#" target="_blank" class="btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x300" alt="Project 3" />
+        <div class="project-info">
+          <h3>Project Three</h3>
+          <p>
+            Overview of project three. Focus on microservices or
+            a more advanced infrastructure-based concept.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="btn">View Demo</a>
+            <a href="#" target="_blank" class="btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="section-title">
+      <h2>Contact Me</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="contact-content">
+      <form class="contact-form" id="contactForm">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-details">
+        <p><strong>Email:</strong> johndoe@example.com</p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        <p><strong>Location:</strong> City, Country</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 John Doe. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <!-- Font Awesome for icons (CDN) -->
+  <script
+    src="https://kit.fontawesome.com/your-fontawesome-kit.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- External JS file -->
+  <script src="js/script.js"></script>
+</body>
+</html>
