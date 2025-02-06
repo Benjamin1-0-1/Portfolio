@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // 1. Contact Form Submission
     const contactForm = document.getElementById("contactForm");
-
     contactForm.addEventListener("submit", (e) => {
       e.preventDefault();
 
@@ -15,5 +15,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Reset the form
       contactForm.reset();
+    });
+
+    // 2. Download Resume Button
+    const downloadBtn = document.getElementById("downloadResumeBtn");
+    downloadBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      // Create an <a> element, set the download attribute, and trigger click
+      const resumeLink = document.createElement("a");
+      resumeLink.href = "files/ben.pdf";   // Path to your PDF
+      resumeLink.download = "benjamin_resume.pdf";     // Name of the downloaded file
+      document.body.appendChild(resumeLink);
+      resumeLink.click();
+      document.body.removeChild(resumeLink);
     });
   });
