@@ -4,9 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Benjamin Okello | Software Developer</title>
-  <!-- Link the external CSS file -->
   <link rel="stylesheet" href="css/style.css" />
-  <!-- Google Fonts (Optional) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +14,6 @@
   >
 </head>
 <body>
-  <!-- Header / Hero Section -->
   <header class="hero">
     <nav class="navbar">
       <div class="logo">Benjamin <span>Okello</span></div>
@@ -34,18 +31,18 @@
     </div>
   </header>
 
-  <!-- About Section -->
+
   <section id="about" class="about section">
     <div class="section-title">
       <h2>About Me</h2>
       <div class="underline"></div>
     </div>
     <div class="about-content">
-      <!-- <img
-        src="https://via.placeholder.com/350"
+      <img
+        src="me.jpg"
         alt="Profile"
         class="profile-img"
-      /> -->
+      />
       <div class="about-text">
         <p>
           I'm a passionate software developer with experience in building
@@ -101,7 +98,7 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
+
   <section id="projects" class="projects section">
     <div class="section-title">
       <h2>Projects</h2>
@@ -117,7 +114,7 @@
             Ice Cream Delight is a full-stack web application built using Flask (Python) and React.js. The app features a flavor catalog, customizable orders, a shopping cart, user reviews, and a store locator, providing an interactive experience for ice cream lovers. It has  a responsive UI, a RESTful API, and is deployed on Netlify.
           </p>
           <div class="project-links">
-            <a href="#" target="_blank" class="btn">View Demo</a>
+            <a href="https://ice-cream-shop-1.onrender.com" target="_blank" class="btn">View Demo</a>
             <a href="https://github.com/FathiMohamedBille/Ice-cream-shop" target="_blank" class="btn">GitHub</a>
           </div>
         </div>
@@ -131,22 +128,22 @@
             This is a full-stack e-commerce application used as a platform to sell a users items . It includes user authentication, product management, and payment processing with Stripe.It eneables users to be able to monitor their merchandise and manage sale of their items.
           </p>
           <div class="project-links">
-            <a href="#" target="_blank" class="btn">View Demo</a>
+            <!-- <a href="#" target="_blank" class="btn">View Demo</a> -->
             <a href="https://github.com/josephbill/MerchP.A" target="_blank" class="btn">GitHub</a>
           </div>
         </div>
       </div>
       <!-- Project 3 -->
       <div class="project-card">
-        <img src=" data:image/jpeg;base64,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" alt="Project 3" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2d-Wa9EBX5gRSYJ50aOPz4g8-Ca8wPSkwpJ4i801B-VrzjbA9JLHcqxc&s" alt="Project 3" />
         <div class="project-info">
-          <h3>Portfolio</h3>
+          <h3>Kenya Universities</h3>
           <p>
-            This is a responsive portfolio website built with HTML, CSS, and JavaScript. It includes a home page, about page, projects page, and contact page.It is build by me for me .
+            Explore Kenyan universities with our sleek React-powered website — discover courses, locations, admission details, and more, all in one beautifully organized platform.
           </p>
           <div class="project-links">
-            <a href="#" target="_blank" class="btn">View Demo</a>
-            <a href="https://github.com/Benjamin1-0-1/Portfolio" target="_blank" class="btn">GitHub</a>
+            <a href="" target="_blank" class="btn">View Demo</a>
+            <a href="https://github.com/Koech161/kenya-unis" target="_blank" class="btn">GitHub</a>
           </div>
         </div>
       </div>
@@ -177,12 +174,12 @@
     </div>
   </footer>
 
-  <!-- Font Awesome for icons (CDN) -->
+
   <script
     src="https://kit.fontawesome.com/your-fontawesome-kit.js"
     crossorigin="anonymous"
   ></script>
-  <!-- External JS file -->
+
   <script src="js/script.js"></script>
 </body>
 </html>

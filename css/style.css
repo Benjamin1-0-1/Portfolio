@@ -1,6 +1,4 @@
-/* =========================
-   GLOBAL STYLES
-   ========================= */
+
    * {
     margin: 0;
     padding: 0;
@@ -18,7 +16,7 @@
     line-height: 1.6;
   }
 
-  /* Reusable section class for spacing & layout */
+
   .section {
     width: 90%;
     max-width: 1200px;
@@ -41,12 +39,12 @@
   .underline {
     width: 60px;
     height: 4px;
-    background-color: #00adb5; /* Accent color */
+    background-color: #00adb5;
     margin: 0.5rem auto;
     border-radius: 2px;
   }
 
-  /* Button */
+
   .btn {
     display: inline-block;
     padding: 0.7rem 1.4rem;
@@ -60,12 +58,10 @@
   }
 
   .btn:hover {
-    background-color: #008f98; /* Slightly darker teal */
+    background-color: #008f98;
   }
 
-  /* =========================
-     NAVBAR
-     ========================= */
+
   .navbar {
     position: fixed;
     top: 0;
@@ -87,7 +83,7 @@
   }
 
   .logo span {
-    color: #00adb5; /* Accent color */
+    color: #00adb5;
   }
 
   .nav-links {
@@ -104,12 +100,9 @@
   }
 
   .nav-links a:hover {
-    color: #00adb5; /* Accent color on hover */
+    color: #00adb5;
   }
 
-  /* =========================
-     HERO SECTION
-     ========================= */
   .hero {
     min-height: 100vh;
     /* Techy gradient background */
@@ -137,16 +130,14 @@
     margin-bottom: 2rem;
   }
 
-  /* =========================
-     ABOUT SECTION
-     ========================= */
+
   .about-content {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; /* Wrap on smaller screens */
+    flex-wrap: wrap;
   }
 
   .profile-img {
@@ -154,8 +145,7 @@
     border-radius: 8px;
     flex: 1 1 300px;
     object-fit: cover;
-    /* If you have an actual profile image, you can apply a subtle shadow: */
-    /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
 
   .about-text {
